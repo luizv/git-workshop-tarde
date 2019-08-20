@@ -7,26 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2972502C230C7CD90064EA99 /* xablau.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2972502B230C7CD90064EA99 /* xablau.storyboard */; };
 		74500DF4230C682A00CFAEE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74500DF3230C682A00CFAEE2 /* AppDelegate.swift */; };
 		74500DF6230C682A00CFAEE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74500DF5230C682A00CFAEE2 /* ViewController.swift */; };
 		74500DF9230C682A00CFAEE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74500DF7230C682A00CFAEE2 /* Main.storyboard */; };
 		74500DFB230C682B00CFAEE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74500DFA230C682B00CFAEE2 /* Assets.xcassets */; };
 		74500DFE230C682B00CFAEE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74500DFC230C682B00CFAEE2 /* LaunchScreen.storyboard */; };
-
-		F9C2D7C2230C7CD400116451 /* Andre.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C2D7C0230C7CD400116451 /* Andre.storyboard */; };
-		F9C2D7C4230C7DA400116451 /* AndreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C2D7C3230C7DA400116451 /* AndreViewController.swift */; };
-
 		74500E06230C7D4800CFAEE2 /* LuizVeloso.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74500E05230C7D4800CFAEE2 /* LuizVeloso.storyboard */; };
 		74500E08230C7D5B00CFAEE2 /* LuizVelosoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74500E07230C7D5B00CFAEE2 /* LuizVelosoViewController.swift */; };
-
-		7AB92677230C7D5D001A7EDA /* zoologicoVerde.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB92676230C7D5D001A7EDA /* zoologicoVerde.storyboard */; };
-		7AB92679230C7F8F001A7EDA /* zoologiciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB92678230C7F8F001A7EDA /* zoologiciViewController.swift */; };
-		7AB9267B230C7FE2001A7EDA /* shutdown.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7AB9267A230C7FE2001A7EDA /* shutdown.wav */; };
+		74500E15230C878400CFAEE2 /* zoologiciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74500E0A230C878400CFAEE2 /* zoologiciViewController.swift */; };
+		74500E16230C878400CFAEE2 /* Storybrange.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74500E0B230C878400CFAEE2 /* Storybrange.storyboard */; };
+		74500E17230C878400CFAEE2 /* WinSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74500E0C230C878400CFAEE2 /* WinSound.wav */; };
+		74500E18230C878400CFAEE2 /* zoologicoVerde.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74500E0D230C878400CFAEE2 /* zoologicoVerde.storyboard */; };
+		74500E1A230C878400CFAEE2 /* AndreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74500E0F230C878400CFAEE2 /* AndreViewController.swift */; };
+		74500E1B230C878400CFAEE2 /* shutdown.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74500E10230C878400CFAEE2 /* shutdown.wav */; };
+		74500E1C230C878400CFAEE2 /* Kelvin.storyboard~Stashed changes in Resources */ = {isa = PBXBuildFile; fileRef = 74500E11230C878400CFAEE2 /* Kelvin.storyboard~Stashed changes */; };
+		74500E1E230C878400CFAEE2 /* xablau.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74500E13230C878400CFAEE2 /* xablau.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2972502B230C7CD90064EA99 /* xablau.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = xablau.storyboard; sourceTree = "<group>"; };
 		74500DF0230C682A00CFAEE2 /* GitWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74500DF3230C682A00CFAEE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74500DF5230C682A00CFAEE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,16 +32,16 @@
 		74500DFA230C682B00CFAEE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74500DFD230C682B00CFAEE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74500DFF230C682B00CFAEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-
-		F9C2D7C1230C7CD400116451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = GitWorkshop/Base.lproj/Andre.storyboard; sourceTree = "<group>"; };
-		F9C2D7C3230C7DA400116451 /* AndreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndreViewController.swift; sourceTree = "<group>"; };
-
 		74500E05230C7D4800CFAEE2 /* LuizVeloso.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LuizVeloso.storyboard; sourceTree = "<group>"; };
 		74500E07230C7D5B00CFAEE2 /* LuizVelosoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuizVelosoViewController.swift; sourceTree = "<group>"; };
-
-		7AB92676230C7D5D001A7EDA /* zoologicoVerde.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = zoologicoVerde.storyboard; sourceTree = "<group>"; };
-		7AB92678230C7F8F001A7EDA /* zoologiciViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zoologiciViewController.swift; sourceTree = "<group>"; };
-		7AB9267A230C7FE2001A7EDA /* shutdown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shutdown.wav; sourceTree = "<group>"; };
+		74500E0A230C878400CFAEE2 /* zoologiciViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zoologiciViewController.swift; sourceTree = "<group>"; };
+		74500E0B230C878400CFAEE2 /* Storybrange.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storybrange.storyboard; sourceTree = "<group>"; };
+		74500E0C230C878400CFAEE2 /* WinSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = WinSound.wav; sourceTree = "<group>"; };
+		74500E0D230C878400CFAEE2 /* zoologicoVerde.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = zoologicoVerde.storyboard; sourceTree = "<group>"; };
+		74500E0F230C878400CFAEE2 /* AndreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AndreViewController.swift; sourceTree = "<group>"; };
+		74500E10230C878400CFAEE2 /* shutdown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shutdown.wav; sourceTree = "<group>"; };
+		74500E11230C878400CFAEE2 /* Kelvin.storyboard~Stashed changes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Kelvin.storyboard~Stashed changes"; sourceTree = "<group>"; };
+		74500E13230C878400CFAEE2 /* xablau.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = xablau.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,19 +74,22 @@
 		74500DF2230C682A00CFAEE2 /* GitWorkshop */ = {
 			isa = PBXGroup;
 			children = (
-				F9C2D7C0230C7CD400116451 /* Andre.storyboard */,
-				F9C2D7C3230C7DA400116451 /* AndreViewController.swift */,
-				7AB9267A230C7FE2001A7EDA /* shutdown.wav */,
 				74500DF3230C682A00CFAEE2 /* AppDelegate.swift */,
 				74500DF5230C682A00CFAEE2 /* ViewController.swift */,
 				74500DF7230C682A00CFAEE2 /* Main.storyboard */,
+				74500E0F230C878400CFAEE2 /* AndreViewController.swift */,
+				74500E11230C878400CFAEE2 /* Kelvin.storyboard~Stashed changes */,
+				74500E10230C878400CFAEE2 /* shutdown.wav */,
+				74500E0B230C878400CFAEE2 /* Storybrange.storyboard */,
+				74500E0C230C878400CFAEE2 /* WinSound.wav */,
+				74500E13230C878400CFAEE2 /* xablau.storyboard */,
+				74500E0A230C878400CFAEE2 /* zoologiciViewController.swift */,
+				74500E0D230C878400CFAEE2 /* zoologicoVerde.storyboard */,
 				74500E05230C7D4800CFAEE2 /* LuizVeloso.storyboard */,
 				74500E07230C7D5B00CFAEE2 /* LuizVelosoViewController.swift */,
 				74500DFA230C682B00CFAEE2 /* Assets.xcassets */,
 				74500DFC230C682B00CFAEE2 /* LaunchScreen.storyboard */,
 				74500DFF230C682B00CFAEE2 /* Info.plist */,
-				7AB92676230C7D5D001A7EDA /* zoologicoVerde.storyboard */,
-				7AB92678230C7F8F001A7EDA /* zoologiciViewController.swift */,
 			);
 			path = GitWorkshop;
 			sourceTree = "<group>";
@@ -151,16 +152,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AB9267B230C7FE2001A7EDA /* shutdown.wav in Resources */,
+				74500E1B230C878400CFAEE2 /* shutdown.wav in Resources */,
+				74500E1E230C878400CFAEE2 /* xablau.storyboard in Resources */,
+				74500E06230C7D4800CFAEE2 /* LuizVeloso.storyboard in Resources */,
 				74500DFE230C682B00CFAEE2 /* LaunchScreen.storyboard in Resources */,
-
-				F9C2D7C2230C7CD400116451 /* Andre.storyboard in Resources */,
-
-				2972502C230C7CD90064EA99 /* xablau.storyboard in Resources */,
-
 				74500DFB230C682B00CFAEE2 /* Assets.xcassets in Resources */,
+				74500E18230C878400CFAEE2 /* zoologicoVerde.storyboard in Resources */,
+				74500E16230C878400CFAEE2 /* Storybrange.storyboard in Resources */,
+				74500E17230C878400CFAEE2 /* WinSound.wav in Resources */,
 				74500DF9230C682A00CFAEE2 /* Main.storyboard in Resources */,
-				7AB92677230C7D5D001A7EDA /* zoologicoVerde.storyboard in Resources */,
+				74500E1C230C878400CFAEE2 /* Kelvin.storyboard~Stashed changes in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,9 +173,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				74500E08230C7D5B00CFAEE2 /* LuizVelosoViewController.swift in Sources */,
+				74500E1A230C878400CFAEE2 /* AndreViewController.swift in Sources */,
 				74500DF6230C682A00CFAEE2 /* ViewController.swift in Sources */,
-				F9C2D7C4230C7DA400116451 /* AndreViewController.swift in Sources */,
-				7AB92679230C7F8F001A7EDA /* zoologiciViewController.swift in Sources */,
+				74500E15230C878400CFAEE2 /* zoologiciViewController.swift in Sources */,
 				74500DF4230C682A00CFAEE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,14 +197,6 @@
 				74500DFD230C682B00CFAEE2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		F9C2D7C0230C7CD400116451 /* Andre.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F9C2D7C1230C7CD400116451 /* Base */,
-			);
-			name = Andre.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -330,7 +323,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3963AZ5GF9;
 				INFOPLIST_FILE = GitWorkshop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -348,7 +341,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3963AZ5GF9;
 				INFOPLIST_FILE = GitWorkshop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

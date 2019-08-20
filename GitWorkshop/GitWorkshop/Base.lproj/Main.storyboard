@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wiE-dX-eUS">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -19,57 +19,63 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="uQ2-Zr-706">
-                                <rect key="frame" x="173" y="100" width="56" height="679"/>
+                                <rect key="frame" x="173" y="144" width="56" height="635"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QEI-nq-0k9">
-                                        <rect key="frame" x="0.0" y="0.0" width="56" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="56" height="26.5"/>
                                         <state key="normal" title="Taques"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DpE-IN-wDW">
-                                        <rect key="frame" x="0.0" y="59" width="56" height="30"/>
+                                        <rect key="frame" x="0.0" y="55.5" width="56" height="26"/>
                                         <state key="normal" title="Otavio"/>
+                                        <connections>
+                                            <segue destination="Tbh-Gb-FIg" kind="show" id="SiB-36-h90"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hiH-qQ-Vaf">
-                                        <rect key="frame" x="0.0" y="118" width="56" height="30"/>
+                                        <rect key="frame" x="0.0" y="110.5" width="56" height="26.5"/>
                                         <state key="normal" title="João"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgd-WK-lk9">
-                                        <rect key="frame" x="0.0" y="177" width="56" height="30"/>
+                                        <rect key="frame" x="0.0" y="166" width="56" height="26.5"/>
                                         <state key="normal" title="Luiz"/>
                                         <connections>
                                             <segue destination="gWK-0P-SXj" kind="show" id="0Ix-xo-ZTw"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5X0-Qo-hdW">
-                                        <rect key="frame" x="0.0" y="236" width="56" height="30"/>
+                                        <rect key="frame" x="0.0" y="221.5" width="56" height="26"/>
                                         <state key="normal" title="Kevin"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xrY-5n-ITc">
-                                        <rect key="frame" x="0.0" y="295" width="56" height="30"/>
+                                        <rect key="frame" x="0.0" y="276.5" width="56" height="26.5"/>
                                         <state key="normal" title="Yumi"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OG-W7-P9M">
-                                        <rect key="frame" x="0.0" y="354" width="56" height="30"/>
+                                        <rect key="frame" x="0.0" y="332" width="56" height="26.5"/>
                                         <state key="normal" title="Maykon"/>
+                                        <connections>
+                                            <segue destination="tyZ-md-dNe" kind="show" id="ZBc-Cd-zRA"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bs-8P-qYZ">
-                                        <rect key="frame" x="0.0" y="413" width="56" height="30"/>
+                                        <rect key="frame" x="0.0" y="387.5" width="56" height="26"/>
                                         <state key="normal" title="Kelvin"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSl-vS-CmQ">
-                                        <rect key="frame" x="0.0" y="472" width="56" height="30"/>
+                                        <rect key="frame" x="0.0" y="442.5" width="56" height="26.5"/>
                                         <state key="normal" title="Bruno"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0b-kk-GzV">
-                                        <rect key="frame" x="0.0" y="531" width="56" height="30"/>
+                                        <rect key="frame" x="0.0" y="498" width="56" height="26.5"/>
                                         <state key="normal" title="Walace"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXA-R0-k7A">
-                                        <rect key="frame" x="0.0" y="590" width="56" height="30"/>
+                                        <rect key="frame" x="0.0" y="553.5" width="56" height="26"/>
                                         <state key="normal" title="Forbeck"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWY-4z-Es4">
-                                        <rect key="frame" x="0.0" y="649" width="56" height="30"/>
+                                        <rect key="frame" x="0.0" y="608.5" width="56" height="26.5"/>
                                         <state key="normal" title="André"/>
                                     </button>
                                 </subviews>
@@ -82,9 +88,19 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <navigationItem key="navigationItem" id="7IO-jX-om1"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1050.7246376811595" y="138.61607142857142"/>
+        </scene>
+        <!--zoologicoVerde-->
+        <scene sceneID="MPx-OA-clx">
+            <objects>
+                <viewControllerPlaceholder storyboardName="zoologicoVerde" id="Tbh-Gb-FIg" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JZL-E7-d1g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1526.8115942028987" y="-103.125"/>
         </scene>
         <!--LuizVeloso-->
         <scene sceneID="gYd-Lr-fUH">
@@ -92,7 +108,33 @@
                 <viewControllerPlaceholder storyboardName="LuizVeloso" id="gWK-0P-SXj" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ilQ-Y5-gHW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="760" y="-38"/>
+            <point key="canvasLocation" x="1669.5652173913045" y="-38.169642857142854"/>
+        </scene>
+        <!--Storybrange-->
+        <scene sceneID="GuN-ZJ-yk4">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Storybrange" id="tyZ-md-dNe" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oi3-1l-VJM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1612" y="218"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="iwc-YH-d4x">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wiE-dX-eUS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="hCD-ih-qW7">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="tqT-7E-eXp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Fpt-B1-voK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="164" y="131"/>
         </scene>
     </scenes>
 </document>
