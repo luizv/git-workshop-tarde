@@ -12,6 +12,8 @@
 		74500DF9230C682A00CFAEE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74500DF7230C682A00CFAEE2 /* Main.storyboard */; };
 		74500DFB230C682B00CFAEE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74500DFA230C682B00CFAEE2 /* Assets.xcassets */; };
 		74500DFE230C682B00CFAEE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74500DFC230C682B00CFAEE2 /* LaunchScreen.storyboard */; };
+		74500E06230C7D4800CFAEE2 /* LuizVeloso.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74500E05230C7D4800CFAEE2 /* LuizVeloso.storyboard */; };
+		74500E08230C7D5B00CFAEE2 /* LuizVelosoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74500E07230C7D5B00CFAEE2 /* LuizVelosoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		74500DFA230C682B00CFAEE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74500DFD230C682B00CFAEE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74500DFF230C682B00CFAEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74500E05230C7D4800CFAEE2 /* LuizVeloso.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LuizVeloso.storyboard; sourceTree = "<group>"; };
+		74500E07230C7D5B00CFAEE2 /* LuizVelosoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuizVelosoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				74500DF3230C682A00CFAEE2 /* AppDelegate.swift */,
 				74500DF5230C682A00CFAEE2 /* ViewController.swift */,
 				74500DF7230C682A00CFAEE2 /* Main.storyboard */,
+				74500E05230C7D4800CFAEE2 /* LuizVeloso.storyboard */,
+				74500E07230C7D5B00CFAEE2 /* LuizVelosoViewController.swift */,
 				74500DFA230C682B00CFAEE2 /* Assets.xcassets */,
 				74500DFC230C682B00CFAEE2 /* LaunchScreen.storyboard */,
 				74500DFF230C682B00CFAEE2 /* Info.plist */,
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74500E06230C7D4800CFAEE2 /* LuizVeloso.storyboard in Resources */,
 				74500DFE230C682B00CFAEE2 /* LaunchScreen.storyboard in Resources */,
 				74500DFB230C682B00CFAEE2 /* Assets.xcassets in Resources */,
 				74500DF9230C682A00CFAEE2 /* Main.storyboard in Resources */,
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74500E08230C7D5B00CFAEE2 /* LuizVelosoViewController.swift in Sources */,
 				74500DF6230C682A00CFAEE2 /* ViewController.swift in Sources */,
 				74500DF4230C682A00CFAEE2 /* AppDelegate.swift in Sources */,
 			);
