@@ -12,6 +12,9 @@
 		74500DF9230C682A00CFAEE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74500DF7230C682A00CFAEE2 /* Main.storyboard */; };
 		74500DFB230C682B00CFAEE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74500DFA230C682B00CFAEE2 /* Assets.xcassets */; };
 		74500DFE230C682B00CFAEE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74500DFC230C682B00CFAEE2 /* LaunchScreen.storyboard */; };
+		7AB92677230C7D5D001A7EDA /* zoologicoVerde.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB92676230C7D5D001A7EDA /* zoologicoVerde.storyboard */; };
+		7AB92679230C7F8F001A7EDA /* zoologiciViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB92678230C7F8F001A7EDA /* zoologiciViewController.swift */; };
+		7AB9267B230C7FE2001A7EDA /* shutdown.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7AB9267A230C7FE2001A7EDA /* shutdown.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		74500DFA230C682B00CFAEE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74500DFD230C682B00CFAEE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74500DFF230C682B00CFAEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB92676230C7D5D001A7EDA /* zoologicoVerde.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = zoologicoVerde.storyboard; sourceTree = "<group>"; };
+		7AB92678230C7F8F001A7EDA /* zoologiciViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zoologiciViewController.swift; sourceTree = "<group>"; };
+		7AB9267A230C7FE2001A7EDA /* shutdown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shutdown.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +60,15 @@
 		74500DF2230C682A00CFAEE2 /* GitWorkshop */ = {
 			isa = PBXGroup;
 			children = (
+				7AB9267A230C7FE2001A7EDA /* shutdown.wav */,
 				74500DF3230C682A00CFAEE2 /* AppDelegate.swift */,
 				74500DF5230C682A00CFAEE2 /* ViewController.swift */,
 				74500DF7230C682A00CFAEE2 /* Main.storyboard */,
 				74500DFA230C682B00CFAEE2 /* Assets.xcassets */,
 				74500DFC230C682B00CFAEE2 /* LaunchScreen.storyboard */,
 				74500DFF230C682B00CFAEE2 /* Info.plist */,
+				7AB92676230C7D5D001A7EDA /* zoologicoVerde.storyboard */,
+				7AB92678230C7F8F001A7EDA /* zoologiciViewController.swift */,
 			);
 			path = GitWorkshop;
 			sourceTree = "<group>";
@@ -122,9 +131,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AB9267B230C7FE2001A7EDA /* shutdown.wav in Resources */,
 				74500DFE230C682B00CFAEE2 /* LaunchScreen.storyboard in Resources */,
 				74500DFB230C682B00CFAEE2 /* Assets.xcassets in Resources */,
 				74500DF9230C682A00CFAEE2 /* Main.storyboard in Resources */,
+				7AB92677230C7D5D001A7EDA /* zoologicoVerde.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74500DF6230C682A00CFAEE2 /* ViewController.swift in Sources */,
+				7AB92679230C7F8F001A7EDA /* zoologiciViewController.swift in Sources */,
 				74500DF4230C682A00CFAEE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +295,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3963AZ5GF9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GitWorkshop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3963AZ5GF9;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GitWorkshop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
