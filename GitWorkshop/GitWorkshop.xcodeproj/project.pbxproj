@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2972502C230C7CD90064EA99 /* xablau.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2972502B230C7CD90064EA99 /* xablau.storyboard */; };
 		74500DF4230C682A00CFAEE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74500DF3230C682A00CFAEE2 /* AppDelegate.swift */; };
 		74500DF6230C682A00CFAEE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74500DF5230C682A00CFAEE2 /* ViewController.swift */; };
 		74500DF9230C682A00CFAEE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74500DF7230C682A00CFAEE2 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2972502B230C7CD90064EA99 /* xablau.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = xablau.storyboard; sourceTree = "<group>"; };
 		74500DF0230C682A00CFAEE2 /* GitWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74500DF3230C682A00CFAEE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74500DF5230C682A00CFAEE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				74500DFA230C682B00CFAEE2 /* Assets.xcassets */,
 				74500DFC230C682B00CFAEE2 /* LaunchScreen.storyboard */,
 				74500DFF230C682B00CFAEE2 /* Info.plist */,
+				2972502B230C7CD90064EA99 /* xablau.storyboard */,
 			);
 			path = GitWorkshop;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74500DFE230C682B00CFAEE2 /* LaunchScreen.storyboard in Resources */,
+				2972502C230C7CD90064EA99 /* xablau.storyboard in Resources */,
 				74500DFB230C682B00CFAEE2 /* Assets.xcassets in Resources */,
 				74500DF9230C682A00CFAEE2 /* Main.storyboard in Resources */,
 			);
