@@ -18,16 +18,68 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgd-WK-lk9">
-                                <rect key="frame" x="192" y="282" width="30" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Luiz"/>
-                                <connections>
-                                    <segue destination="gWK-0P-SXj" kind="show" id="0Ix-xo-ZTw"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="uQ2-Zr-706">
+                                <rect key="frame" x="173" y="100" width="56" height="679"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QEI-nq-0k9">
+                                        <rect key="frame" x="0.0" y="0.0" width="56" height="30"/>
+                                        <state key="normal" title="Taques"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DpE-IN-wDW">
+                                        <rect key="frame" x="0.0" y="59" width="56" height="30"/>
+                                        <state key="normal" title="Otavio"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hiH-qQ-Vaf">
+                                        <rect key="frame" x="0.0" y="118" width="56" height="30"/>
+                                        <state key="normal" title="João"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rgd-WK-lk9">
+                                        <rect key="frame" x="0.0" y="177" width="56" height="30"/>
+                                        <state key="normal" title="Luiz"/>
+                                        <connections>
+                                            <segue destination="gWK-0P-SXj" kind="show" id="0Ix-xo-ZTw"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5X0-Qo-hdW">
+                                        <rect key="frame" x="0.0" y="236" width="56" height="30"/>
+                                        <state key="normal" title="Kevin"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xrY-5n-ITc">
+                                        <rect key="frame" x="0.0" y="295" width="56" height="30"/>
+                                        <state key="normal" title="Yumi"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5OG-W7-P9M">
+                                        <rect key="frame" x="0.0" y="354" width="56" height="30"/>
+                                        <state key="normal" title="Maykon"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2bs-8P-qYZ">
+                                        <rect key="frame" x="0.0" y="413" width="56" height="30"/>
+                                        <state key="normal" title="Kelvin"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fSl-vS-CmQ">
+                                        <rect key="frame" x="0.0" y="472" width="56" height="30"/>
+                                        <state key="normal" title="Bruno"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0b-kk-GzV">
+                                        <rect key="frame" x="0.0" y="531" width="56" height="30"/>
+                                        <state key="normal" title="Walace"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PXA-R0-k7A">
+                                        <rect key="frame" x="0.0" y="590" width="56" height="30"/>
+                                        <state key="normal" title="Forbeck"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWY-4z-Es4">
+                                        <rect key="frame" x="0.0" y="649" width="56" height="30"/>
+                                        <state key="normal" title="André"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="uQ2-Zr-706" secondAttribute="bottom" constant="83" id="SNa-eo-eIU"/>
+                            <constraint firstItem="uQ2-Zr-706" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="56" id="ybv-oB-heM"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
