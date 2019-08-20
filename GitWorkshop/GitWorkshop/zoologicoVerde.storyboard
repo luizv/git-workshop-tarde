@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lkw-0z-oXa">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="TFo-mH-JF8">
+            <objects>
+                <viewController id="lkw-0z-oXa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Stg-OW-6lU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ewz-mQ-rGu">
+                                <rect key="frame" x="0.0" y="64" width="414" height="30"/>
+                                <state key="normal" title="ximirde gigambordes">
+                                    <color key="titleColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Nct-W8-bj3">
+                                <rect key="frame" x="-2" y="240" width="418" height="31"/>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Escolha o seu novo tamanho" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUn-eO-0jm">
+                                <rect key="frame" x="0.0" y="149.5" width="414" height="57.5"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.49019607840000001" green="0.81176470590000005" blue="0.71372549019999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="sUn-eO-0jm" firstAttribute="width" secondItem="Nct-W8-bj3" secondAttribute="width" id="235-Dw-SR8"/>
+                            <constraint firstItem="sUn-eO-0jm" firstAttribute="centerX" secondItem="Nct-W8-bj3" secondAttribute="centerX" id="3Y8-LW-Lca"/>
+                            <constraint firstItem="Nct-W8-bj3" firstAttribute="centerX" secondItem="Ewz-mQ-rGu" secondAttribute="centerX" id="CpW-Zd-SPK"/>
+                            <constraint firstItem="Ewz-mQ-rGu" firstAttribute="centerX" secondItem="Eu1-wt-zrN" secondAttribute="centerX" id="NdE-af-E8U"/>
+                            <constraint firstItem="Nct-W8-bj3" firstAttribute="width" secondItem="Ewz-mQ-rGu" secondAttribute="width" id="OdS-iw-N85"/>
+                            <constraint firstItem="Ewz-mQ-rGu" firstAttribute="width" secondItem="Stg-OW-6lU" secondAttribute="width" id="bdq-Ln-hGH"/>
+                            <constraint firstItem="Ewz-mQ-rGu" firstAttribute="top" secondItem="Eu1-wt-zrN" secondAttribute="top" constant="20" id="egE-76-qzZ"/>
+                            <constraint firstItem="Nct-W8-bj3" firstAttribute="top" secondItem="sUn-eO-0jm" secondAttribute="bottom" constant="33" id="q6l-Q8-KYG"/>
+                            <constraint firstItem="Nct-W8-bj3" firstAttribute="top" secondItem="Ewz-mQ-rGu" secondAttribute="bottom" constant="146" id="tK3-18-EjM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Eu1-wt-zrN"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="f1L-e0-M51" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-62.318840579710148" y="61.607142857142854"/>
+        </scene>
+    </scenes>
+</document>
