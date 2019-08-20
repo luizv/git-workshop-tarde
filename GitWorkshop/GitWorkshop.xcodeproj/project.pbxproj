@@ -13,8 +13,13 @@
 		74500DF9230C682A00CFAEE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74500DF7230C682A00CFAEE2 /* Main.storyboard */; };
 		74500DFB230C682B00CFAEE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74500DFA230C682B00CFAEE2 /* Assets.xcassets */; };
 		74500DFE230C682B00CFAEE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74500DFC230C682B00CFAEE2 /* LaunchScreen.storyboard */; };
+<<<<<<< HEAD
+		F9C2D7C2230C7CD400116451 /* Andre.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C2D7C0230C7CD400116451 /* Andre.storyboard */; };
+		F9C2D7C4230C7DA400116451 /* AndreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C2D7C3230C7DA400116451 /* AndreViewController.swift */; };
+=======
 		74500E06230C7D4800CFAEE2 /* LuizVeloso.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74500E05230C7D4800CFAEE2 /* LuizVeloso.storyboard */; };
 		74500E08230C7D5B00CFAEE2 /* LuizVelosoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74500E07230C7D5B00CFAEE2 /* LuizVelosoViewController.swift */; };
+>>>>>>> bf2a021e1669b4d49569ceb99847045288f0d2a7
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +31,13 @@
 		74500DFA230C682B00CFAEE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74500DFD230C682B00CFAEE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74500DFF230C682B00CFAEE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+<<<<<<< HEAD
+		F9C2D7C1230C7CD400116451 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = GitWorkshop/Base.lproj/Andre.storyboard; sourceTree = "<group>"; };
+		F9C2D7C3230C7DA400116451 /* AndreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndreViewController.swift; sourceTree = "<group>"; };
+=======
 		74500E05230C7D4800CFAEE2 /* LuizVeloso.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LuizVeloso.storyboard; sourceTree = "<group>"; };
 		74500E07230C7D5B00CFAEE2 /* LuizVelosoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuizVelosoViewController.swift; sourceTree = "<group>"; };
+>>>>>>> bf2a021e1669b4d49569ceb99847045288f0d2a7
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,8 @@
 		74500DF2230C682A00CFAEE2 /* GitWorkshop */ = {
 			isa = PBXGroup;
 			children = (
+				F9C2D7C0230C7CD400116451 /* Andre.storyboard */,
+				F9C2D7C3230C7DA400116451 /* AndreViewController.swift */,
 				74500DF3230C682A00CFAEE2 /* AppDelegate.swift */,
 				74500DF5230C682A00CFAEE2 /* ViewController.swift */,
 				74500DF7230C682A00CFAEE2 /* Main.storyboard */,
@@ -133,7 +145,11 @@
 			files = (
 				74500E06230C7D4800CFAEE2 /* LuizVeloso.storyboard in Resources */,
 				74500DFE230C682B00CFAEE2 /* LaunchScreen.storyboard in Resources */,
+<<<<<<< HEAD
+				F9C2D7C2230C7CD400116451 /* Andre.storyboard in Resources */,
+=======
 				2972502C230C7CD90064EA99 /* xablau.storyboard in Resources */,
+>>>>>>> bf2a021e1669b4d49569ceb99847045288f0d2a7
 				74500DFB230C682B00CFAEE2 /* Assets.xcassets in Resources */,
 				74500DF9230C682A00CFAEE2 /* Main.storyboard in Resources */,
 			);
@@ -148,6 +164,7 @@
 			files = (
 				74500E08230C7D5B00CFAEE2 /* LuizVelosoViewController.swift in Sources */,
 				74500DF6230C682A00CFAEE2 /* ViewController.swift in Sources */,
+				F9C2D7C4230C7DA400116451 /* AndreViewController.swift in Sources */,
 				74500DF4230C682A00CFAEE2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -169,6 +186,14 @@
 				74500DFD230C682B00CFAEE2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F9C2D7C0230C7CD400116451 /* Andre.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9C2D7C1230C7CD400116451 /* Base */,
+			);
+			name = Andre.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
